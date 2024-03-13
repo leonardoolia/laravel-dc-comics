@@ -1,11 +1,11 @@
-<div class="container d-flex align-items-center justify-content-between py-5">
-    <div id="logo">
-        <img src="{{asset('images/dc-logo.png')}}" alt="">
-    </div>
+<div class="container d-flex align-items-center justify-content-bewteen py-5">
+  <div id="logo">
+    <img src="{{asset('images/dc-logo.png')}}" alt="">
+  </div>
 
-    <div id="header-navbar">
-        <ul>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div id="header-navbar">
+      
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -46,20 +46,19 @@
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Gifts</a></li>
           </ul>
-        </li>
-        
+        </li>        
       </ul>
-
     </div>
   </div>
 </nav>
 
-    </div>
+</div>
 
-    <div id="header-searchbar">
-        <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-    </div>
+<div id="header-searchbar">
+  <form class="d-flex" role="search">
+    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success" type="submit">Search</button>
+  </form>
+</div>
+
 </div>
