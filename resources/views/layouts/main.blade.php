@@ -18,6 +18,7 @@
 </header>
 
 <main class="container">
+    @yield('main-content')
 </main>
 
 <footer>
