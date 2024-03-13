@@ -10,7 +10,7 @@
 </head>
 
 <body>
-
+    @extends('layouts.main')
 </body>
 
 </html>
