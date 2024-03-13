@@ -1,6 +1,6 @@
-<div class="container">
+<div class="container d-flex align-items-center justify-content-between py-5">
     <div id="logo">
-        <img src="" alt="">
+        <img src="{{asset('images/dc-logo.png')}}" alt="">
     </div>
 
     <div id="header-navbar">
@@ -35,13 +35,10 @@
         </li>       
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">NEWS</a>
-        </li>       
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">SHOP</a>
-        </li>       
+        </li>         
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Shop
+            SHOP
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Comics</a></li>
