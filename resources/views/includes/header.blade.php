@@ -13,7 +13,7 @@
           <a class="nav-link active" aria-current="page" href="#">CHARACTERS</a>
         </li>       
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">COMICS</a>
+          <a class="nav-link active" aria-current="page" href="{{route('comics')}}">COMICS</a>
         </li>       
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">MOVIES</a>
