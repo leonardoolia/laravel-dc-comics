@@ -6,7 +6,7 @@
 
 <div class="row">
     @forelse($comics as $comic)
-    <div class="col-2 mb-2">
+    <div class="col-2 mb-4">
     <a href="{{route('comics.show', $comic->id)}}" class="text-decoration-none">
         <div class="card">
             <img src="{{$comic->thumb}}" class="card-img-top" alt="{{$comic->title}}">
@@ -21,6 +21,9 @@
             <p>Non ci sono comics</p>
         </div>
     @endforelse
+    <a href="{{route('comics.create')}}"class="btn btn-primary w-25 my-4 mx-auto">Aggiungi fumetto</a>
+
 </div>
+
 
 @endsection
