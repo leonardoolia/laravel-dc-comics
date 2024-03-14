@@ -1,4 +1,4 @@
-<div class="container d-flex align-items-center justify-content-bewteen py-5">
+<div class="container d-flex align-items-center justify-content-bewteen py-5 ">
   <div id="logo">
     <img src="{{asset('images/dc-logo.png')}}" alt="">
   </div>
