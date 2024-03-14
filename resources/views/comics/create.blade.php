@@ -4,7 +4,7 @@
 
 @section('main-content')
 
-<div class=" card-title d-flex align-items-center justify-content-between mb-5">
+<div class=" card-title d-flex align-items-center justify-content-between mb-5 border-bottom">
     <h1>Aggiungi un fumetto</h1>
     <a href="{{route('comics.index')}}" class="btn btn-secondary">Torna indietro</a>
 </div>
@@ -60,12 +60,17 @@
                     <input type="text" name="writers" class="form-control" id="writers" placeholder="Es: Sam Johns, Joshua Williamson,...">
                 </div>
             </div>
-            <div class="col-12w">
+            <div class="col-12w border-bottom">
                 <div class="mb-3">
                     <label for="description" class="form-label">Descrizione</label>
                     <textarea class="form-control" id="description" rows="4"></textarea>
                   </div>
             </div>
+        </div>
+
+        <div class="mt-4 d-flex align-items-center gap-2">
+            <button type="submit" class="btn btn-primary">Aggiungi</button>
+            <button type="reset" class="btn btn-secondary">Svuota i campi</button>
         </div>
     </form>
 </div>
