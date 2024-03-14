@@ -26,3 +26,6 @@ Route::get('/comics/create', [ComicController::class, 'create'])->name('comics.c
 
 // Rotta per singolo fumetto
 Route::get('/comics/{comic}', [ComicController::class, 'show'])->name('comics.show');
+
+// Rotta per il salvataggio del fumetto
+Route::post('/comics', [ComicController::class, 'store'])->name('comics.store');
