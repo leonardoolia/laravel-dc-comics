@@ -52,7 +52,7 @@
             <div class="col-6">
                 <div class="mb-3">
                     <label for="artists" class="form-label">Artisti</label>
-                    <input type="text" name="artists" class="form-control" id="artists" placeholder="Es: Guillem March, Ashley A. Woods,..." value="{{old('arists', '')}}">
+                    <input type="text" name="artists" class="form-control" id="artists" placeholder="Es: Guillem March, Ashley A. Woods,..." value="{{old('artists', '')}}">
                 </div>
             </div>
             <div class="col-6">
@@ -64,7 +64,7 @@
             <div class="col-12w border-bottom">
                 <div class="mb-3">
                     <label for="description" class="form-label">Descrizione</label>
-                    <textarea class="form-control" id="description" rows="4">{{old('description')}}</textarea>
+                    <textarea class="form-control" id="description" name="description" rows="4">{{old('description')}}</textarea>
                   </div>
             </div>
         </div>
