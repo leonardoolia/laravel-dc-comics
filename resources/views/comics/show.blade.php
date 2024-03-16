@@ -4,10 +4,10 @@
 
 @section('main-content')
 
-<ul>
-    <li class="list-unstyled">
-        <div class="row text-center">
-        <div class="col-6 mx-auto">
+<ul class="d-flex flex-column align-items-center gap-5">
+    <li class="list-unstyled ">
+        <div class="row text-center ">
+        <div class="col-6 mx-auto d-flex justify-content-center">
         <div class="card  w-75">
             <img src="{{$comic->thumb}}" class="card-img-top" alt="{{$comic->title}}">
             <div class="card-body">
@@ -20,6 +20,10 @@
         </div>
         </div>
         </div>
+    </li>
+
+    <li class="list-unstyled">
+        <a href="" class="btn btn-warning">Modifica fumetto</a>
     </li>
 </ul>
 
