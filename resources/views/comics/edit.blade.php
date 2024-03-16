@@ -4,7 +4,7 @@
 
 @section('main-content')
 
-<div class=" card-title d-flex align-items-center justify-content-between mb-5 border-bottom">
+<div class="card-title d-flex align-items-center justify-content-between mb-5 border-bottom">
     <h1>Modifica fumetto</h1>
     <a href="{{route('comics.index')}}" class="btn btn-secondary">Torna indietro</a>
 </div>

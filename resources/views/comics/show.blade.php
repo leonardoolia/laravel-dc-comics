@@ -23,7 +23,7 @@
     </li>
 
     <li class="list-unstyled">
-        <a href="" class="btn btn-warning">Modifica fumetto</a>
+        <a href="{{route('comics.edit', $comic->id)}}" class="btn btn-warning">Modifica fumetto</a>
     </li>
 </ul>
 
