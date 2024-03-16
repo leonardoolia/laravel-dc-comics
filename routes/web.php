@@ -30,5 +30,8 @@ Route::get('/comics/{comic}', [ComicController::class, 'show'])->name('comics.sh
 // Rotta per modificare fumetto
 Route::get('/comics/{comic}/edit', [ComicController::class, 'edit'])->name('comics.edit');
 
-// Rotta per il salvataggio del fumetto
+// Rotta per il salvataggio del fumetto nuovo
 Route::post('/comics', [ComicController::class, 'store'])->name('comics.store');
+
+// Rotta per salvataggio fumetto modificato
+Route::put('/comics/{comic}', [ComicController::class, 'update'])->name('comics.update');
