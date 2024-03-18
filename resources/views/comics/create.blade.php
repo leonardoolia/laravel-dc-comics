@@ -10,6 +10,16 @@
 </div>
 
 <div class=card-body>
+    @if($errors->any())
+    <div class="alert alert-danger"> Ci sono i seguenti errori nel form:
+        <ul>
+            @foreach($errors->all() as $error)
+                <li>{{$error}}</li>
+            @endforeach
+        </ul>
+    </div>
+@endif
+
     <form action="{{route('comics.store')}}" method="POST">
         @csrf
         <div class="row">
