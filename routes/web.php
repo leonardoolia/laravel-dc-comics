@@ -35,3 +35,6 @@ Route::post('/comics', [ComicController::class, 'store'])->name('comics.store');
 
 // Rotta per salvataggio fumetto modificato
 Route::put('/comics/{comic}', [ComicController::class, 'update'])->name('comics.update');
+
+// Rotta per eliminazione del fumetto
+Route::delete('comics/{comic}', [ComicController::class, 'destroy'])->name('comics.destroy');

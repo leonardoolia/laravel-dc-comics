@@ -22,9 +22,20 @@
         </div>
     </li>
 
+    <div class="d-flex align-items-center gap-5">
     <li class="list-unstyled">
         <a href="{{route('comics.edit', $comic->id)}}" class="btn btn-warning">Modifica fumetto</a>
     </li>
+
+    <li class="list-unstyled">
+        <form action="{{route('comics.destroy', $comic->id)}}" method="POST">
+            @csrf
+            @method('DELETE')
+
+            <button type="submit" class="btn btn-danger">Elimina fumetto</button>
+        </form>
+    </li>
+    </div>
 </ul>
 
 @endsection
